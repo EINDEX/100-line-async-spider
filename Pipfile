@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+lxml = "*"
+aiohttp = "*"
+cchardet = "*"
+aiodns = "*"
+aiofiles = "*"
+urlparse = "*"
+
+[requires]
+python_version = "3.7"
